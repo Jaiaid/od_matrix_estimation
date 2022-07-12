@@ -1,3 +1,9 @@
+# project input, output specific files
+*.png
+*.jpg
+*.txt
+*.shp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
