@@ -90,8 +90,7 @@ def demand_estimation(transitstop_shapefile: str, total_population: int,  block_
 
 
 if __name__ == "__main__":
-    SHPFILE = "BusStops.shp"
+    SHPFILE = "example_shpfile/example_busstop.shp"
     # for this data
-    # map area rectangle has minimum side of length 35722.729899998754
-    # maximum length of 47624.42679999955
-    print(demand_estimation(SHPFILE, total_population=1000000, block_side_length=1000))
+    # map area rectangle has minimum side of length 74.79131886496475
+    print(demand_estimation(SHPFILE, total_population=100000, block_side_length=10))
